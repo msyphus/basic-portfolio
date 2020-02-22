@@ -1,4 +1,8 @@
-#navBar, section {
+body {
+    background-image: url(../Images/y-so-serious-white.png);
+    background-repeat: repeat;
+}
+#navBar, content {
     width: 960px;
     margin: auto;
 }
@@ -33,6 +37,12 @@ li {
     padding: 20px 15px;
     background-color: #ffffff;
     width: 75px;
+}
+
+section {
+    width: full;
+    border-top: 3px solid #cccccc
+    
 }
 
 .secTitle {
