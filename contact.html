@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=stylesheet type="text/css" src="Assets\CSS\style.css">
-    <title>Mark Syphus Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="Assets\CSS\style.css">
+    <title>Mark Syphus Portfolio -- Contact</title>
 </head>
 <body>
     <header>
-        <h1>Mark Syphus</h1>
-    
-        <!-- Navigation Bar -->
         <div class=navBar>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="">Contact</a>
-            </nav>
-        </div>
+            <ul>
+                <li class=myName>Mark Syphus</li>
+                <li class=tabs style="float:right"><a href="">Contact</a></li>
+                <li class=tabs style="float:right"><a href="portfolio.html">Portfolio</a></li>
+                <li class=tabs style="float:right"><a href="index.html">About</a></li>
+            </ul>
+        </div>    
     </header>
+    
+    <div class=full>
+        <div class=content>
+            <div class=secTitle>
+                <h1>Contact</h1>
+            </div>
 
-    <section>
-        <div class=title>
-        <h1>Contact</h1>
+            <form>
+                <label for="fullName">Name</label><br>
+                <input type="text" name="fullName" placeholder="John Smith"><br>
+                <label for="email">Email</label><br>
+                <input type="text" name="email" placeholder="example@gmail.com"><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" rows="10"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
+    </div>
 
-    <form>
-        <label for="fullName">Name</label><br>
-        <input type="text" name="fullName"><br>
-        <label for="email">Email</label><br>
-        <input type="text" name="email"><br>
-        <label for="message">Message</label><br>
-        <textarea name="message" rows="10"></textarea><br>
-        <input type="submit" value="Submit">
-    </form>
-
-    </section>
     <footer>
         <p>Copyright© 2020</p>
     </footer>
