@@ -106,3 +106,22 @@ textarea {
     width: 933px;
     border: 1px inset #dddddd;
 }
+.imgContainer {
+    position: relative;
+    width: 310px;
+    height: 250px;
+    margin: 30px 10px 10px;
+}
+
+.textBlock {
+    position: absolute;
+    top: 70%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    box-sizing: border-box;
+    width: 320px;
+    height: 25%; 
+    padding: 20px;
+ }
