@@ -106,8 +106,20 @@ textarea {
     width: 933px;
     border: 1px inset #dddddd;
 }
+
+.fixedContent {
+    width: 938px;
+    height: 1000px;
+    margin: auto;
+    clear: both;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+
 .imgContainer {
     position: relative;
+    float: left;
     width: 310px;
     height: 250px;
     margin: 30px 10px 10px;
@@ -115,6 +127,7 @@ textarea {
 
 .textBlock {
     position: absolute;
+    display: inline;
     top: 70%;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -122,6 +135,6 @@ textarea {
     text-align: center;
     box-sizing: border-box;
     width: 320px;
-    height: 25%; 
+    height: 20%; 
     padding: 20px;
- }
+}
