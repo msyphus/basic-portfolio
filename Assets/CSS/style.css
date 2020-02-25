@@ -45,7 +45,7 @@ li {
     text-align: center;    
 }
 
-li a {
+li a:link {
     font-family: Arial, 'Helvetica Neue',Helvetica, sans-serif;
     color: #cccccc;
     text-decoration: none;
@@ -53,6 +53,20 @@ li a {
     padding: 30px 15px;
     background-color: #ffffff;
     width: 75px;
+}
+
+li a:visited {
+    color: #cccccc;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.active {
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 .myName {
