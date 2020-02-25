@@ -43,6 +43,17 @@ ul {
 li {
     float: left;
     text-align: center;
+    
+}
+
+li a {
+    font-family: Arial, 'Helvetica Neue',Helvetica, sans-serif;
+    color: #cccccc;
+    text-decoration: none;
+    display: block;
+    padding: 30px 15px;
+    background-color: #ffffff;
+    width: 75px;
 }
 
 .myName {
@@ -53,16 +64,6 @@ li {
     color: #ffffff;
     width: 200px;
     padding: 24px 5px;
-}
-
-.tabs {
-    display: block;
-    text-decoration: none;
-    font-family: Arial, 'Helvetica Neue',Helvetica, sans-serif;
-    color: #cccccc;
-    padding: 30px 15px;
-    background-color: #ffffff;
-    width: 75px;
 }
 
 section {
@@ -79,7 +80,7 @@ section {
     color:#4aaaa5;
 }
 
-/*Here's where to set the image container*/
+/*Here's where to set the image container to the size of the image*/
 .myProfile {
     float:left;
     margin: 0 10px;
