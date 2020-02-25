@@ -150,6 +150,10 @@ textarea {
     margin: 20px 25px 10px;
 }
 
+.imgContainer img:hover {
+    border: 2px solid #4882B8;
+}
+
 .textBlock {
     position: absolute;
     display: inline;
