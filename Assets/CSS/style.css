@@ -12,6 +12,20 @@ body {
     color: #777777
 }
 
+.myName {
+    float:left;
+    position: relative;
+    left: 235px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 200px;
+    padding: 24px;
+    margin: 0 -10px;
+}
+
 .navBar {
     width: 960px;
     margin: auto;
@@ -25,7 +39,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
     text-align: center;    
 }
 
@@ -58,16 +72,7 @@ li a:hover:not(.active) {
     color: #ffffff !important; /*!important gives this code precedence over code that would normally take precedence*/ 
 }
 
-.myName {
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    font-weight: bold;
-    color: #ffffff;
-    width: 200px;
-    padding: 24px;
-    margin: 0 -10px;
-}
+
 
 .full {
     background-image: url(../Images/y-so-serious-white.png);
