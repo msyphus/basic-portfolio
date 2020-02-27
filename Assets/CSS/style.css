@@ -88,6 +88,12 @@ li a:hover:not(.active) {
     margin-top: 20px;
 }
 
+.clearFix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .secTitle {
     border-bottom: 3px solid #cccccc;   
 }
