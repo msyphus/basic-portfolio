@@ -12,10 +12,13 @@ body {
     color: #777777
 }
 
+.navBar {
+    width: 960px;
+    margin: auto;
+}
+
 .myName {
     float:left;
-    position: relative;
-    left: 235px;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
@@ -24,11 +27,6 @@ body {
     width: 200px;
     padding: 24px;
     margin: 0 -10px;
-}
-
-.navBar {
-    width: 960px;
-    margin: auto;
 }
 
 ul {
