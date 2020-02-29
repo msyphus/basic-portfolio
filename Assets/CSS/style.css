@@ -1,3 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+}
+
 header {
     background-color: #ffffff;
     margin: 0;
@@ -5,11 +10,6 @@ header {
     width: 100%;
     height: 75px;
     border-bottom: 3px solid #cccccc;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777
 }
 
 .navBar {
@@ -76,8 +76,6 @@ li a:hover:not(.active) {
     background-color: #4aaaa5;
     color: #ffffff !important; /*!important gives this code precedence over code that would normally take precedence*/ 
 }
-
-
 
 .full {
     background-image: url(../Images/y-so-serious-white.png);
@@ -174,7 +172,7 @@ input[type="submit"]:hover {
 }
 
 textarea {
-    width: 908px;
+    width: 918px;
     border: 1px inset #dddddd;
     margin: 5px 0 10px;
 }
