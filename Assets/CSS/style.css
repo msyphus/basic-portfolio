@@ -20,13 +20,16 @@ header {
 .myName {
     float:left;
     background-color: #4aaaa5;
+    width: 200px;
+    padding: 24px;
+    margin: 0;
+}
+
+.myName h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px!important;
     font-weight: bold!important;
     color: #ffffff;
-    width: 200px;
-    padding: 24px;
-    margin: 0;
 }
 
 ul {
