@@ -30,6 +30,7 @@ header {
     font-size: 28px!important;
     font-weight: bold!important;
     color: #ffffff;
+    padding: 21px 5px;
 }
 
 ul {
@@ -141,7 +142,7 @@ footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     box-sizing: border-box;
-    padding: 0;
+    padding: 10px 0;
     text-align: center;
     color: #ffffff;
     clear: both;
